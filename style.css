@@ -18,6 +18,11 @@ body {
   background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   color: white;
   overflow: hidden;
+  background-image: url("back.png");  
+  background-size: cover;      
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
 }
 
 
