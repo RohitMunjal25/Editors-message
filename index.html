@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card" onclick="openVideo('editor')">
+    <h2>Message by Editor's Head</h2>
+    <p>Click to Watch 🎬</p>
+  </div>
+
+  <div class="card" onclick="openVideo('team')">
+    <h2>Message by Team</h2>
+    <p>Click to Watch 🎬</p>
+  </div>
+
+  <div id="videoModal" class="modal">
+    <span class="close" onclick="closeVideo()">❌</span>
+    <iframe id="videoFrame" width="700" height="400" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</body>
+</html>
